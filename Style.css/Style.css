@@ -6,7 +6,7 @@
 }
 
 main{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 40px;
 }
@@ -22,5 +22,47 @@ main{
 
 .title > p{
     margin-top: 40px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-cards{
+    margin-top: 40px;
+}
+
+img{
+    width: 125px;
+    height: 125px;
+}
+
+.card{
+    width: 28%;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.description{
+    width: calc(100% - 125px);
+    background-color: #0f0e17;
+    color: white;
+    padding: 20px;
+    font-size: .8rem;
+}
+
+.description> h2{
+    text-transform: uppercase;
+}
+
+.description > p{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+p.mail{
+    color: aqua;
 }
